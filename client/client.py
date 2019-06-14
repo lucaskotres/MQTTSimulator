@@ -1,5 +1,6 @@
 import paho.mqtt.client as mqtt
 import datetime
+HOSTNAME = "iot.eclipse.org"
 
 def on_connect(client, userdata, flags, rc):
 
@@ -14,6 +15,6 @@ client.on_message = on_message
 
 #client.username_pw_set("USUARIO", password="SENHA")
 
-client.connect("iot.eclipse.org", 1883, 60)
+client.connect(HOSTNAME, 1883, 60)
 
 client.loop_forever()
