@@ -1,6 +1,6 @@
 import paho.mqtt.client as mqtt
 import datetime
-HOSTNAME = "iot.eclipse.org"
+HOSTNAME = "mqtt.eclipse.org"
 
 def on_connect(client, userdata, flags, rc):
 

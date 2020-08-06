@@ -1,6 +1,6 @@
 import paho.mqtt.publish as publish
 import random
-HOSTNAME = "iot.eclipse.org"
+HOSTNAME = "mqtt.eclipse.org"
 
 class pump:
 
