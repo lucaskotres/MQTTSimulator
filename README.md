@@ -1,7 +1,7 @@
 # MQTTSimulator
 Simple MQTT Simulator publishing to eclipse.org. 
 
-**Prerequisites:
+**Prerequisites:**
 
 * Python 3
 * biblioteca paho-mqtt (*pip install paho-mqtt*)
